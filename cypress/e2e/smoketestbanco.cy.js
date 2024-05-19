@@ -11,7 +11,7 @@ describe("Test Suite - Conjunto de Prueba",()=>{
 
     })
 
-    it("Prueba E2E - Transferencia de ", ()=>{
+    it("Prueba E2E - Transferencia de Fondos", ()=>{
         
         cy.get("#signin_button").click()
         cy.get("#user_login").type("username")
